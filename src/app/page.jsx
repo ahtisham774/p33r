@@ -1,3 +1,8 @@
-import LandingPage from "./test/page";
+import React from 'react'
+import LandingPage from './landingPage'
 
-export default LandingPage;
+const page = () => {
+  return <LandingPage />
+}
+
+export default page

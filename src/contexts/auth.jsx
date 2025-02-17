@@ -20,7 +20,7 @@ const AuthProvider = ({ children }) => {
   const pathname = usePathname();
   const publicRoutes = [
     "/",
-    "/landingPage",
+    "/home",
     "/search",
     "/search-external",
     "/impact-verification",

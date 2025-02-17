@@ -186,11 +186,11 @@ export default function RootLayout({ children }) {
         <LoadingProvider>
           <AuthProvider>
             <ModalProvider>
-              {(pathname !== "/landingPage" ) && <Header />}
+              {(pathname !== "/" ) && <Header />}
               <Toaster />
               {children}
               <div id="sign-in-button" />
-              {(pathname !== "/" && pathname !== "/landingPage" ) && <Footer />}
+              {(pathname !== "/" && pathname !== "/home" ) && <Footer />}
             </ModalProvider>
           </AuthProvider>
         </LoadingProvider>

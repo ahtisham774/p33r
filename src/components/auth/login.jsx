@@ -68,7 +68,7 @@ function LoginContent({ open, onClose }) {
 
     onClose(false);
 
-    window.location.href = "/landingPage"
+    window.location.href = "/home"
 
     // clearData();
   };
@@ -112,7 +112,7 @@ function LoginContent({ open, onClose }) {
 
         onClose(false);
         setCLoading(false);
-         window.location.href = "/landingPage"
+         window.location.href = "/home"
         // setIsModalOpen(false);
         // setIsProfileModalOpen(true);
       })

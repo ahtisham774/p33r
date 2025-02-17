@@ -88,7 +88,7 @@ export function Footer () {
       <div className='w-full'>
         <div className='flex flex-wrap w-full justify-between gap-8 items-center mb-8'>
           <div className='flex flex-col gap-3 flex-1'>
-            <Link href='/'>
+            <Link  href="/home">
               <Image src={logo} alt='P33R Logo' className='w-[115px] h-7' />
             </Link>
             <nav className='flex flex-wrap gap-6'>

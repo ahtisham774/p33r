@@ -148,7 +148,7 @@ function SocialButtons({
         handleEmailSubmit(setCLoading);
       }
     }
-    window.location.href = "/landingPage"
+    window.location.href = "/home"
   };
 
   return (
